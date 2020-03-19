@@ -17,11 +17,19 @@ For we do simple things with Selenium, normally the easy way to do it, its use a
 
 So, we will use for this examples, the Firefox geckodriver. 
 
-Download here, and set the file in your's environment variable, after you will be able to run
+[Download here](https://github.com/mozilla/geckodriver/releases/), and set the file in your's environment variable, normally, exist more than one way to set a enviroment variable in your S.O.
 
-'''
-geckodriver --version 
-'''
+One way to do it in linux, its copy the file to **~/.local/bin, something like this:
+
+~~~
+cp geckodriver ~/.local/bin/
+~~~
+
+After you will be able to run
+
+
+´´´ geckodriver --version ´´´
+
 
 from your terminal, and received something like this: 
 ~~~
